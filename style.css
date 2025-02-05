@@ -1,0 +1,26 @@
+body {
+	text-align: center;
+}
+.teamTable {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 100px;
+}
+li {
+	list-style-type: none;
+}
+.nameHolder {
+}
+textarea {
+	height: 120px;
+	width: 220px;
+}
+
+.team1,
+.team2 {
+	height: 4px;
+}
+li {
+	font-size: 20px;
+}
