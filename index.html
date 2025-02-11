@@ -8,28 +8,32 @@
 	</head>
 	<body>
 		<h1>Randomizer</h1>
-		<form id="inputForm">
-			<input class="input" type="text" />
-			<button class="addButton" type="submit">Add</button>
-		</form>
+
+		<div class="heading">
+			<form id="inputForm">
+				<input class="input" type="text" />
+				<button class="addButton" type="submit">Add</button>
+			</form>
+			<button class="addTeamButton">Add Team</button>
+		</div>
 
 		<div class="nameHolder">
-			<li></li>
+			<li class="nameList"></li>
 		</div>
 		<div>
 			<button class="randomizeButton">Randomize</button>
 		</div>
 
 		<div class="teamTable">
-			<div>
+			<div class="container">
 				<h2>Team 1</h2>
-				<ul class="team1">
+				<ul class="team1" class="teamStyle">
 					<li></li>
 				</ul>
 			</div>
-			<div>
+			<div class="container">
 				<h2>Team 2</h2>
-				<ul class="team2">
+				<ul class="team2" class="teamStyle">
 					<li></li>
 				</ul>
 			</div>
